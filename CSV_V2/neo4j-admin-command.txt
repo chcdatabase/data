@@ -1,0 +1,5 @@
+// NEO4j-ADMIN COMMANDS FOR CSV IMPORT
+
+1. Run: cd bin
+
+2: Run: neo4j-admin import --multiline-fields=true --database=neo4j --nodes=../import/chcd-v-2-nodes.csv --relationships=../import/chcd-v-2-rels.csv

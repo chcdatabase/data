@@ -2,4 +2,4 @@
 
 1. Run: cd bin
 
-2: Run: neo4j-admin import --multiline-fields=true --database=neo4j --nodes=../import/chcd-v-2-nodes.csv --relationships=../import/chcd-v-2-rels.csv
+2: Run: neo4j-admin database import full --multiline-fields=true --delimiter=@ --nodes=import/chcd_v2.3_nodes.csv --relationships=import/chcd_v2.3_edges.csv

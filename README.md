@@ -3,5 +3,5 @@ This repository houses the data releases of the China Historical Christian Datab
 
 ## CSV Files
 Please note that the files use @ as their delimeter. The data is designed to be imported into a neo4j database. To import the data into neo4j, use the following command:
-neo4j-admin database import full --multiline-fields=true --delimiter=@ --nodes=import/chcd_v2.4_nodes.csv --relationships=import/chcd_v2.4_edges.csv
+neo4j-admin database import full --multiline-fields=true --delimiter=@ --nodes=import/chcd_v2.5_nodes.csv --relationships=import/chcd_v2.5_edges.csv
 
